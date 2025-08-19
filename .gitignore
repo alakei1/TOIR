@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+*.joblib
+*.h5
+*.pdf
+*.png

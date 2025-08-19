@@ -1,0 +1,19 @@
+TOIR/
+├── __pycache__/
+├── data/              # Данные
+│   ├── __init__.py
+│   ├── processed/     # Обработанные данные
+│   └── raw/           # Исходные данные (sensor_data.csv)
+├── main.py           # Основной скрипт
+├── models/           # Обученные модели
+│   ├── iforest_model.joblib  # Isolation Forest
+│   └── lstm_model.h5         # LSTM модель
+├── predict.py        # Скрипт для предсказаний
+├── results/          # Результаты и визуализации
+│   ├── anomalies.pdf
+│   ├── anomalies.png
+│   └── ...           # Графики аномалий
+└── utils/            # Вспомогательные модули
+    ├── models.py     # Функции для работы с моделями
+    ├── preprocessing.py  # Предобработка данных
+    └── visualization.py  # Визуализация
